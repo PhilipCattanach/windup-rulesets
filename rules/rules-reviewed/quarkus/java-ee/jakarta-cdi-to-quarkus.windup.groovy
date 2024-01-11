@@ -111,7 +111,7 @@ ruleSet("jakarta-cdi-to-quarkus-groovy")
             )
             .endIteration()
     )
-    .withId("jakarta-cdi-to-quarkus-groovy-00010")
+    .withId("jakarta-cdi-to-quarkus-groovy-00010") 
 // suggest to replace cdi-api TRANSITIVE dependency if no Quarkus dependency has been already added and 'javax.enterprise.{packages}.{*}' package is used somewhere in the code
     .addRule()
     .when(

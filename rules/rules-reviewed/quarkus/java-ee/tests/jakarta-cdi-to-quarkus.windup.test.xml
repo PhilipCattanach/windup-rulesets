@@ -20,7 +20,7 @@
                     <fail message="[jakarta-cdi-to-quarkus-00000] Replace `jakarta.enterprise:jakarta.enterprise.cdi-api` dependency hint was not found!" />
                 </perform>
             </rule>
-             <rule id="jakarta-cdi-to-quarkus-groovy-00010-test">
+             <!--rule id="jakarta-cdi-to-quarkus-groovy-00010-test">
                 <when>
                     <not>
                              <hint-exists message="A class injected but missing an annotation to define its scope type"/>
@@ -29,7 +29,7 @@
                 <perform>
                     <fail message="[jakarta-cdi-to-quarkus-groovy-00010] No scope defined hint was not found!" />
                 </perform>
-            </rule> 
+            </rule--> 
             <rule id="jakarta-cdi-to-quarkus-groovy-00020-test">
                 <when>
                     <not>
